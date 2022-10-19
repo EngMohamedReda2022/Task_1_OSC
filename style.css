@@ -1,0 +1,34 @@
+ * {
+    padding:0;
+    margin: 0;
+ }
+.container {
+    width: 1000px;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    /* other way to center inter div */
+    /* 
+    display: flex;
+    justify-content: centr;
+     */
+    /* there is exist other way to center it but i don't need to boring from me ok */
+    
+}
+.container > div {
+    background-color: blue;
+    width: 100px;
+    padding: 0 30px 30px;
+    margin: 0 auto;
+}
+.container div img {
+    max-width:100%;
+}
+/* other way we don't need to make a background for outside div */
+/* img {
+    width: 100px;
+    height: 100%;
+    border-bottom: 30px solid blue;
+    border-right:  30px solid blue;
+    border-left:  30px solid blue;
+} */
